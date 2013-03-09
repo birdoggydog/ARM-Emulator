@@ -4,6 +4,6 @@ type echo <pathname to .elf> and it will run the file.  You will see the status 
 
 It only works on assembled arm assembly right now.
 
-It will run all commands as far as I know, and will run most programs not requiring nonsupported commands correctly.
+It's parsing correctly I believe.  It will also attempt to run a program.  Can't vouch for correctness at this juncture.
 
 Nathaniel.
