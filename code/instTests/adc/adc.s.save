@@ -1,0 +1,14 @@
+.text
+
+_start: .global _start
+	.global main
+
+
+	b main
+
+main:
+	mov r1, #1
+	adc r3, r1, #1
+	adc r2, r1, r3
+	
+	.end
